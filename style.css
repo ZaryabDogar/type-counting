@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50vw;
+
+}
+.box{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(82, 174, 174) ;
+    width: 60%;
+    height: 60%;
+}
+.txt
+{
+    margin-top:40px;
+    height: 30%;
+    width: 50%;
+
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    box-shadow: 2px 4px 8px;
+    border-radius: 3px;
+}
+.count
+{
+    margin-top: 30px;
+    width: 80%;
+     display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+#total{
+    color: rgb(2, 86, 2);
+}
+#remain{
+    color: rgb(235, 29, 29);
+}
